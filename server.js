@@ -99,7 +99,7 @@ io.on("connection", (socket) => {
     }
   });
   socket.on("disconnect", () => {
-    io.emit("visitCount", { count: 10 });
+    // io.emit("visitCount", { count: 10 });
   });
 });
 // module.exports = server;
