@@ -82,16 +82,4 @@ exports.getAllStorys = async (req, res) => {
       error: "DB ERROR",
     });
   }
-
-  // Story.find()
-  //   .populate("posted_by")
-  //   .limit(limit)
-  //   .exec((err, Storys) => {
-  //     if (err) {
-  //       return res.status(400).json({
-  //         error: "NO Story FOUND"
-  //       });
-  //     }
-  //     res.json(Storys);
-  //   });
 };
